@@ -1,0 +1,7 @@
+# robotstxt.org/
+
+User-agent: *
+Disallow:
+Allow: /
+
+Sitemap: http://raphael.li/sitemap.xml

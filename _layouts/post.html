@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+    </div>
+    <div class="go-back"><a href="/">Zur&uuml;ck zur &Uuml;bersicht</a></div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

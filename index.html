@@ -1,0 +1,36 @@
+---
+layout: default
+title: Übersicht
+exclude_from_search: true
+---
+
+<h1>Mathematik fürs Studium</h1>
+
+<p>Hier sind kurze Zusammenfassungen der mathematischen Grundlangen für mein Studium.</p>
+
+<h2>Suche</h2>
+{% include search.html %}
+
+<h2>Übersicht</h2>
+{% for cat in site.categories %}
+    {% if cat[0] != "inhalte" %}
+        <h4 class="resource">{{cat[0] | capitalize }}</h4>
+        <ul>
+        {% assign posts = site.posts | sort:"weight" | reverse %}
+        {% for entry in posts %}
+            {% if entry.categories contains cat[0] %}
+                <li><a href="{{entry.url}}">{{entry.title}}</a></li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    {% endif %}
+{% endfor %}
+
+<br>
+<br>
+<h2>N&uuml;tzliche Links</h2>
+<ul>
+    <li><a href="https://www.gibb.ch/Berufsmaturitaet/Faecher/Seiten/Mathematik/Abschlusspr%C3%BCfungen-Mathematik.aspx">Berusmatura Prüfungen</a></li>
+    <li><a href="http://www.sciweavers.org/free-online-latex-equation-editor">Latex Editor</a></li>
+    <li><a href="http://www1.maths.leeds.ac.uk/~khouston/pdf/solutions.pdf">Lösungen zum Buch "Wie man mathematisch denkt"</a></li>
+</ul>

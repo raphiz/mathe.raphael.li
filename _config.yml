@@ -1,0 +1,36 @@
+# Site settings
+title: Mathematik fürs Studium
+description: > #
+  Mathematik wissen für mein Studium
+
+url: "http://mathe.raphael.li"
+
+permalink: /:title/
+
+exclude:
+    - docker/       # Docker image to build this site
+    - README.md
+    - Makefile
+
+host: 0.0.0.0
+
+assets:
+    gzip: false
+    compress:
+        # css: 'sass'
+        js: 'uglifier'
+
+gems:
+    - jekyll-assets
+    - uglifier
+    - jekyll-sitemap
+    - jekyll-lunr-js-search
+
+markdown: redcarpet
+highlighter: pygments
+
+lunr_search:
+  excludes: [sitemap.xml, robots.txt, 404.html]
+
+redcarpet:
+  extensions: ["tables"]
