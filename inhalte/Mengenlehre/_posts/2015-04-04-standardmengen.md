@@ -12,6 +12,11 @@ Die Menge der **ganzen Zahlen**, bezeichnet mit $\mathbb{Z}$, ist die Menge  *{.
 ### Rationale Zahlen
 Die Menge der **rationalen Zahlen**, bezeichnet mit $\mathbb{Q}$, besteht aus allen **Brüchen**. Es gilt $ x \in \mathbb{Q} $ wenn $x$ in der Form $p \over q$ geschrieben werden kann, wobei gilt $ p \in \mathbb{Z} $ und $ q \in \mathbb{Z} \land q \neq 0$
 
+### Irrationale Zahlen
+Zahlen, die nicht rational sind heissen *irrationale* Zahlen und bilden zusammen mit den rationalen Zahlen die *reellen Zahlen*.
+Die Menge der irrationalen Zahlen lässt sich kurz als $\mathbb{R} \setminus \mathbb{Q}$ schreiben.
+
+
 ### Reelle Zahlen
 Die Menge der **reellen Zahlen**, bezeichet mit $\mathbb{R}$, kann man grob mit als *Dezimalbrücke* definieren. D.h. auch alle rationalen Zahlen sind reelle Zahlen.
 
