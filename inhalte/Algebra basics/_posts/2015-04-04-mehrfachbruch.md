@@ -21,3 +21,4 @@ $\{\{8 \over 4\} \over 2\} = \{8 \over 4 \times 2\} = 4$
 
 ## Weitere Informationen
 * [Doppelbruch/Mehrfachbruch auf frustfrei-lernen.de](http://www.frustfrei-lernen.de/mathematik/doppelbruch-mehrfachbruch.html)
+* [Die Mathematik der Technischen Berufsmaturität](http://www.hep-verlag.ch/mathematik-tbm) - Seite 17
