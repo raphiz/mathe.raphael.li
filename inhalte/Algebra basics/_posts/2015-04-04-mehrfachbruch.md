@@ -2,9 +2,9 @@
 title: Doppelbruch / Mehrfachbruch
 layout: post
 ---
-Doppelbrüche werden durcheinander dividiert, indem man den Zählerbruch mit dem **Kehrwert des Nennerbruchs multipliziert**
+Doppelbrüche werden durcheinander dividiert, indem man den Zählerbruch mit dem **Kehrwert des Nennerbruchs multipliziert**. Aufgepasst: Das [Kommutativgesetz](http://www.frustfrei-lernen.de/mathematik/kommutativgesetz.html) gilt bei der Division nicht -  die Operanden dürfen also nicht vertauscht werden!
 
-$\{\{a \over\{b\}\} \over\{c \over\{d\}\}\} = \{\{a\times d\}\over\{b\times c\}\}$
+$\{\{a \over\{b\}\} \over\{c \over\{d\}\}\} = \{\{a\times d\}\over\{b\times c\}\} \neq \{\{b\times c\}\over\{a\times d\}\}$
 
 oder mit Zahlen:
 
