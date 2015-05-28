@@ -1,4 +1,12 @@
-FROM grahamc/jekyll
+FROM ruby
+
+RUN apt-get update
+RUN apt-get install -y node python-pygments
+RUN gem install jekyll rdiscount kramdown
+
+# Working directory
+VOLUME /src
+WORKDIR /src
 
 # Install assets plugin
 RUN gem install jekyll-assets

@@ -6,7 +6,7 @@ buildimage:
 	docker build -t raphiz/mathe.raphael.li docker/
 
 build:
-	docker run --rm --name mathe.raphael.li -v $(shell pwd):/src/ -p 4000:4000 raphiz/mathe.raphael.li build
+	docker run --rm --name mathe.raphael.li -v $(shell pwd):/src/ -p 4000:4000 raphiz/mathe.raphael.li jekyll build
 
 serve:
-	docker run --rm --name mathe.raphael.li -v $(shell pwd):/src/ -p 4000:4000 raphiz/mathe.raphael.li serve
+	docker run --rm --name mathe.raphael.li -v $(shell pwd):/src/ -p 4000:4000 raphiz/mathe.raphael.li jekyll serve
