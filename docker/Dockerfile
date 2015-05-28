@@ -10,4 +10,4 @@ RUN gem install jekyll-lunr-js-search
 RUN useradd --home /src -u 1000 -M jekyll
 USER jekyll
 
-ENTRYPOINT ["bash"]
+ENTRYPOINT []
