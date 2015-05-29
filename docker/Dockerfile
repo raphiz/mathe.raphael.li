@@ -1,4 +1,4 @@
-FROM ruby:2.2
+FROM phusion/passenger-ruby22
 
 RUN apt-get update
 RUN apt-get install -y node python-pygments
