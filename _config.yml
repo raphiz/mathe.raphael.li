@@ -12,6 +12,8 @@ exclude:
     - README.md
     - Makefile
     - deploy.sh
+    - wercker.yml
+
 
 host: 0.0.0.0
 
