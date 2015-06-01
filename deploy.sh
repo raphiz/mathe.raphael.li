@@ -10,11 +10,11 @@ if [ ! -n "$HOST" ];then
     exit 1
 fi
 if [ ! -n "$USER" ];then
-    echo  "missing option \"HOST\", aborting"
+    echo  "missing option \"USER\", aborting"
     exit 1
 fi
 if [ ! -n "$PASSWORD" ];then
-    echo  "missing option \"HOST\", aborting"
+    echo  "missing option \"PASSWORD\", aborting"
     exit 1
 fi
 
@@ -23,8 +23,7 @@ if [ ! -n "$DIRECTORY" ];then
     exit 1
 fi
 
-
-# Create temporary director
+# Go into the directory, where the site was generated
 cd "$DIR/_site/"
 
 
