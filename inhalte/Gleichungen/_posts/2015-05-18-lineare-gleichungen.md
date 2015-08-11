@@ -3,12 +3,12 @@ title: Lineare Gleichungen
 layout: post
 ---
 
-Bei Linerare Gelichung kommt die Unbekannte im Gegensatz zur Quadratischen oder Wurzelgleichung nur in der ersten Potenzvor vor.
+Bei Lineraren Gelichungen kommt die Unbekannte im Gegensatz zur Quadratischen oder Wurzelgleichung nur in der ersten Potenzvor vor.
 
 Für die Grundlagen von Gleichungen siehe [Gleichungen](/gleichungen/).
 
 ## Berechnung
-Eine lineare Gleichung wird mittels äquivalenten Unformungen aufgelöst. Ziel ist es die Unbekannte auf einer Seite der Gleichung mit hilfe der folgenden Umformungen zu isolieren:
+Eine lineare Gleichung wird mittels äquivalenten Unformungen aufgelöst. Ziel ist es die Unbekannte auf einer Seite der Gleichung mit Hilfe der folgenden Umformungen zu isolieren:
 
 * Addition/Subtraktion eines Terms
 * Mutliplikation mit einer Konstanten (!= 0)
