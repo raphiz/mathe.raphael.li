@@ -1,8 +1,8 @@
 # Redirect 404
 
 # Redirect to HTTPS
-RewriteCond %{HTTPS} =off
-RewriteRule ^ https://%{REQUEST_URI} [QSA,L,R=301]
+RewriteCond %{HTTPS} off
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # HSTS Header - only when using https
 Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS

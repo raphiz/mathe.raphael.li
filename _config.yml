@@ -11,8 +11,9 @@ exclude:
     - docker/       # Docker image to build this site
     - README.md
     - Makefile
-    - deploy.sh
-    - wercker.yml
+    - deploy.py
+    - .travis.yml
+    - .asset-cache
 
 
 host: 0.0.0.0

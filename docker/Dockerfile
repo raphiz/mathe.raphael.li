@@ -1,12 +1,16 @@
-FROM ruby
+FROM ruby:2.3
 
 RUN apt-get update
-RUN apt-get install -y node python-pygments
+RUN apt-get install -y node python3-pygments
 RUN gem install jekyll rdiscount kramdown
+
+# Python for FTP deployment...
+RUN apt-get install --force-yes -y python3
 
 # Install assets plugin
 RUN gem install jekyll-assets
 RUN gem install uglifier
+RUN gem install redcarpet
 RUN gem install jekyll-sitemap
 RUN gem install jekyll-lunr-js-search
 
